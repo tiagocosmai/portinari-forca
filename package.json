@@ -1,8 +1,6 @@
 {
   "name": "hangman",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://elmirabelo.github.io/jogo-da-forca-react",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
