@@ -1,0 +1,89 @@
+.Hangman {
+  width: 400px;
+  color: black;
+  text-align: center;
+  zoom: 1.3;
+  height: 100%;
+}
+
+.Hangman img {
+  border: 6px solid white;
+  height: 15rem;
+  box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.6);
+}
+
+.Hangman h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 0.3em;
+  margin-top: 0;
+}
+
+.Hangman-word {
+  letter-spacing: 1rem;
+  margin: 0.4em -1em 0.2em 0;
+  font-size: 2rem;
+}
+.Hangman-wrong {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+.Hangman-btns {
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  margin: 0.2rem;
+}
+
+.Hangman-btn {
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30px;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #b007ff;
+  color: #fff;
+  box-shadow: 0 4px #5f0588;
+  border-radius: 5px;
+  padding-top: 4px;
+}
+
+.Hangman-btn:hover {
+  background-color: #cd07ff;
+}
+
+.Hangman-btn:disabled {
+  background: #bdbdbd;
+  color: #eeeeee;
+  box-shadow: 0 6px #9e9e9e;
+}
+.Hangman-reset {
+  display: block;
+  font-family: inherit;
+  width: 100%;
+  background-color: #246e24;
+  box-shadow: 0 4px #5f0588;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.4rem 2rem;
+  margin-top: 1rem;
+  transition: all 0.2s ease;
+}
+
+.Hangman-reset:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 6px #5f0588;
+}
+
+.Hangman-reset:active {
+  transform: translateY(0);
+  box-shadow: 0 4px #5f0588;
+}
